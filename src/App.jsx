@@ -6,7 +6,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const socket = io("http://localhost:8001");
+const socket = io("https://chat-server-10uy.onrender.com");
 
 function App() {
   const navigate = useNavigate();
